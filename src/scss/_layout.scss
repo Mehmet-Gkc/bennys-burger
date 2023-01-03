@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    
+}
+#bg-image {
+    height: 80vh;
+    background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    // nav {
+    //     span {
+    //         color: $purple;
+    //     }
+    // }
+    span, a {
+        color: $purple;
+    }
+    span {
+        align-self: center;
+    }
+
+    #text{
+        transform: translate(-50%,-50%);
+        
+        h1 {
+            font-family: 'Love Ya Like A Sister', cursive;
+            font-size: 15rem;
+        }
+        button {
+            background-color: $purple;            
+        }
+    }
+}
+
+#theidea {
+    h1, h5 {
+        font-family: 'Love Ya Like A Sister', cursive;
+    }
+    h1 {
+        font-size: 15rem;
+    }
+}
+ 
+
+
