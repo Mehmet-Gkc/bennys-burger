@@ -1,0 +1,20 @@
+.container-fluid {
+  background-color: #9800ff;
+}
+h1,h5 {
+    font-family: "Love Ya Like A Sister";
+  }
+
+  .btn-primary{
+    background-color: white;
+    color: #9800ff;
+    border:0.5px solid #9800ff;
+  }
+
+ 
+
+  @media (max-width: 576px) {
+    .d-flex {
+       flex-direction: column;
+    }
+  }
