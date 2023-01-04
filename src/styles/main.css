@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
-.container {
-  width: 100%;
+.container-fluid {
   background-color: #9800ff;
 }
 
@@ -14,17 +13,8 @@ h1, h5 {
   border: 0.5px solid #9800ff;
 }
 
-@media (max-width: 992px) {
-  .container {
-    width: 80%;
-    margin-bottom: 10px;
-  }
-}
 @media (max-width: 576px) {
   .d-flex {
-    width: 40%;
-    margin-bottom: 10px;
-    display: flex;
     flex-direction: column;
   }
 }
